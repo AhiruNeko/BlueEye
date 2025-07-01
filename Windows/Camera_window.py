@@ -26,7 +26,7 @@ class Camera_window(Main_Window, Camera_interface):
 
         self.camera_selected.set("Camera 0")
         cameras = [("Camera " + str(i)) for i in self.list_cameras()]
-        camera_menu = tk.OptionMenu(self.camera_frame, self.camera_selected, *cameras)
+        camera_menu = tk.OptionMenu(self.camera_frame, self.camera_selected, cameras)
         camera_menu.pack(side=tkinter.LEFT)
 
         self.camera_apply.modify_text(ENGLISH, "Apply")

@@ -116,34 +116,21 @@ class Main_Window:
         self.pred_vd_button.set_lang(self.default_lang)
         self.pred_vd_button.pack()
 
-        self.about_label.modify_text(ENGLISH, "Group Project of "
-                                         "Group 7, Global Challenge I, Hong Kong Baptist University\n"
+        self.about_label.modify_text(ENGLISH, "Group Project of Group7\n"
                                          "Project Name: Blue Eye\n"
-                                         "Co-developers: Dylan, Tim\n"
-                                         "Group Leader: Dylan\n"
-                                         "Group Members: Carson, Kyra, Thomas, Tim, Violet\n"
-                                         "Repository: https://github.com/Dylan-wg/GarbageRecognition\n"        
+                                         "Repository: https://github.com/AhiruNeko/GarbageRecognition\n"        
                                          "All rights reserved.")
-        self.about_label.modify_text(SIMPLIFIED_CHINESE, "香港浸会大学全球挑战I第七组小组项目\n"
+        self.about_label.modify_text(SIMPLIFIED_CHINESE, "第七组小组项目\n"
                                                     "项目名称：望海蓝图\n"
-                                                    "开发者: Dylan, Tim\n"
-                                                    "组长: Dylan\n"
-                                                    "组员: Carson, Kyra, Thomas, Tim, Violet\n"
-                                                    "仓库: https://github.com/Dylan-wg/GarbageRecognition\n"
+                                                    "仓库: https://github.com/AhiruNeko/GarbageRecognition\n"
                                                     "All rights reserved.")
-        self.about_label.modify_text(TRADITIONAL_CHINESE, "香港浸會大學全球挑戰I第七組小組項目\n"
+        self.about_label.modify_text(TRADITIONAL_CHINESE, "第七組小組項目\n"
                                                           "項目名稱：望海藍圖\n"
-                                                          "開發者: Dylan, Tim\n"
-                                                          "組長: Dylan\n"
-                                                          "組員: Carson, Kyra, Thomas, Tim, Violet\n"
-                                                          "倉庫: https://github.com/Dylan-wg/GarbageRecognition\n"
+                                                          "倉庫: https://github.com/AhiruNeko/GarbageRecognition\n"
                                                           "All rights reserved.")
-        self.about_label.modify_text(GERMAN, "Sektor 7 global challenge I der un-unterwasser-universität Von hongkong\n"
+        self.about_label.modify_text(GERMAN, "Projekt der Gruppe 7\n"
                                              "Projektname: Blaues Auge\n"
-                                             "Den entwickler: Dylan, Tim\n"
-                                             "Herr vorsitzender: Dylan\n"
-                                             "Crew: Carson, Kyra, Thomas, Tim, Violet\n"
-                                             "Das lagerhaus: https://github.com/Dylan-wg/GarbageRecognition\n"
+                                             "Das lagerhaus: https://github.com/AhiruNeko/GarbageRecognition\n"
                                              "All rights reserved.")
         self.about_label.set_lang(self.default_lang)
         self.about_label.pack(side=tk.BOTTOM)

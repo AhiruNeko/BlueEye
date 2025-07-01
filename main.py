@@ -1,13 +1,8 @@
 #
-# Group Project of Group 7, Global Challenge I, Hong Kong Baptist University
+# Group Project of Group 7
 # Project Name: Blue Eye
 #
-# Co-developers: Dylan, Tim
-#
-# Group Leader: Dylan
-# Group Members: Carson, Kyra, Thomas, Tim, Violet
-#
-# Repository: https://github.com/Dylan-wg/GarbageRecognition
+# Repository: https://github.com/AhiruNeko/GarbageRecognition
 #
 from Windows.Camera_window import Camera_window
 from Windows.Main_Window import Main_Window
